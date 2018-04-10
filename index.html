@@ -1,40 +1,196 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>shivamgoyal.me</title>
-    <!-- External Style Sheet: BEST -->
+    <title>Which baby animal are you?</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
-    <header class="nav">
-    <a >Contact Us</a>
-    <a >About</a>
-    <a >Services</a>
-    <a id="other-nav-bar">FundKnowledge</a>
-    <!--Using w3w3schools-->
-    <a style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </header>
+  <div class= "butt" id="starting">
+    <h1>Which baby animal are you?</h1><br>
+  </div>
+  <div class="butt" id="starting">
+    <h4>Don't lie! You secretly wish you were born as an animal than a human. Lets figure it out which one are you!</h4>
+  </div>
+  <form  id="buzzfeed">
 <div class="size" id="one">
-    <h2>Support exceptional students around the world</h2>
-    <!--Using w3w3schools-->
-    <div id="main-text">
-    <textarea id="text" rows="1" cols="20" placeholder="Email Address">
-    </textarea><br>
-      <button type="submit" id="button">I'm game!</button><br>
-    </div>
-    </div>
-    <div id="row">
-     <div class="column">Find children who are changing their neighbourhoods in developing countries. These are the crazy ones, the misfits and the troublemakers. </div>
-     <div class="column">Support them by funding for their college education. Help them make their goals a reality - their success is their society's success.</div>
-     <div class="column">Join along the journey of making people change the world. Be proud of your support - its making an impact beyond one's imagination.</div>
-   </div>
-   <div id="row2">
-     <div class="column2">Give us feedback</div>
-     <div class="column2"><textarea id="text" rows="10" cols="40" placeholder="Email Address">
-     </textarea>
-     <br>
-       <button type="submit" id="button">Submit</button><br></div>
-   <div>
+    <h2>Q1) Where can I find you on a Saturday afternoon?</h2>
+
+</div>
+<div class="answer">
+  <div class="ans">
+    <!--stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons -->
+    <label><img src="q1a.jpg" />
+   <input type="radio" class ="but" name="q1" value="1"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q1b.jpg" />
+   <input type="radio" class ="but" name="q1" value="2"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q1c.jpg" />
+   <input type="radio"  class ="but" name="q1" value="3"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q1d.jpg" />
+   <input type="radio"  class ="but" name="q1" value="4"/>
+  </label>
+  </div>
+</div>
+
+<div class="size" id="two">
+    <h2>Q2) What type of shoes do you prefer?</h2>
+</div>
+<div class="answer">
+  <div class="ans">
+    <!--stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons -->
+    <label><img src="q2a.jpg" />
+   <input type="radio" class ="but" name="q2" value="1"/>
+ </label>
+  </div>
+  <div class="ans">
+    <label><img src="q2b.jpg" />
+   <input type="radio" class ="but" name="q2" value="2"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q2c.jpg" />
+   <input type="radio"  class ="but" name="q2" value="3"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q2d.jpg" />
+   <input type="radio"  class ="but" name="q2" value="4"/>
+  </label>
+  </div>
+</div>
+<div class="size" id="three">
+    <h2>Q3) What kind of music is your jam?</h2>
+</div>
+<div class="answer">
+  <div class="ans">
+    <!--stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons -->
+    <label><img src="q3a.jpg" />
+   <input type="radio" class ="but" name="q3" value="1"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q3b.jpg" />
+   <input type="radio" class ="but" name="q3" value="2"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q3c.jpg" />
+   <input type="radio"  class ="but" name="q3" value="3"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q3d.jpg" />
+   <input type="radio"  class ="but" name="q3" value="4"/>
+  </label>
+  </div>
+</div>
+<div class="size" id="four">
+    <h2>Q4) Which is your favorite stock photo?</h2>
+</div>
+<div class="answer">
+  <div class="ans">
+    <!--stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons -->
+    <label><img src="q4a.jpg" />
+   <input type="radio" class ="but" name="q4" value="1"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q4b.jpg" />
+   <input type="radio" class ="but" name="q4" value="2"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q4c.jpg" />
+   <input type="radio"  onclick="red();" class ="but" name="q4" value="3"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q4d.jpg" />
+   <input type="radio"  class ="but" name="q4" value="4"/>
+  </label>
+  </div>
+</div>
+<div class="size" id="five">
+    <h2>Q5) What is your jeans fad?</h2>
+</div>
+<div class="answer">
+  <div class="ans">
+    <!--stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons -->
+    <label><img src="q5a.jpg" />
+   <input type="radio" class ="but" name="q5" value="1"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q5b.jpg" />
+   <input type="radio" class ="but" name="q5" value="2"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q5c.jpg" />
+   <input type="radio"  class ="but" name="q5" value="3"/>
+  </label>
+  </div>
+  <div class="ans">
+    <label><img src="q5d.jpg" />
+   <input type="radio"  class ="but" name="q5" value="4"/>
+  </label>
+  </div>
+</div>
+<!--submit-->
+<br>
+<div class="butt">
+<button type="submit" id="button">Let's find out!</button><br>
+</td></tr>
+</div>
+</form>
+<p class= "butter" id="answer"></p><br>
+<p class= "butter"  id="answer2"></p>
+
+<!--  Took help from http://codeactually.com/examples.html to write the script-->
+<script>
+
+
+	   document.getElementById("buzzfeed").onsubmit=function() {
+
+	   q1 = parseInt(document.querySelector('input[name = "q1"]:checked').value);
+     q2 = parseInt(document.querySelector('input[name = "q2"]:checked').value);
+     q3 = parseInt(document.querySelector('input[name = "q3"]:checked').value);
+     q4 = parseInt(document.querySelector('input[name = "q4"]:checked').value);
+     q5 = parseInt(document.querySelector('input[name = "q5"]:checked').value);
+
+
+
+	   total= q1+q2+q3+q4+q5;
+
+	   if(total < 6) {
+document.getElementById("answer").innerHTML = "<img src=\"giraffe.jpg\">";
+document.getElementById("answer2").innerHTML = "You are a cutie little giraffe!";
+}
+
+   if(total >=7 && total < 13) {
+     document.getElementById("answer").innerHTML = "<img src=\"elephant.jpg\">";
+     document.getElementById("answer2").innerHTML = "You are an adorable baby elephant!";
+}
+
+	if(total >=13) {
+    document.getElementById("answer").innerHTML = "<img src=\"panda.jpg\">";
+    document.getElementById("answer2").innerHTML = "You are a soft little panda!";
+}
+
+
+	   return false;
+   }
+
+</script>
+
   </body>
-  <footer>Made for CS52 by Shivam Goyal</footer>
+  <footer class="butt">Made for CS52 by Shivam Goyal</footer>
   </html>
